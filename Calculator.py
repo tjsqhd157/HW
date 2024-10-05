@@ -3,7 +3,7 @@
 def add(a, b):
     return a + b
 
-def subtract(a, b):
+def sub(a, b):
     return a - b
 
 def multiply(a, b):
@@ -18,6 +18,7 @@ def divide(a, b):
 # Get user input
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
+
 
 # Display results
 print(f"{num1} + {num2} = {add(num1, num2)}")
